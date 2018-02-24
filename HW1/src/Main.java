@@ -33,7 +33,7 @@ public class Main {
         if (a < 0){
             System.out.println("Какое же оно отрицательное!!!");
         } else {
-            System.out.println("Все в порядке, оно положителое :)");
+            System.out.println("Все в порядке, оно положительное :)");
         }
     }
 
@@ -48,15 +48,13 @@ public class Main {
 
     public static void every4(int year){
         System.out.println(year);
-        String is = "Неа";
-        if (year % 100 == 0) {
-            is = "Високосный, еще как!";
-        } else if (year % 4 == 0){
-            is = "Високосный, еще как!";
-        }
-        if (year == 400){
-            is = "Неа";
-        }
+        String is = "Високосный";
+		if ((year % 100 == 0) || (!year % 4 == 0)){
+			is = "Нет";
+		}
+		if (year % 400 == 0){
+			is = "Високосный";
+		}
             System.out.println(is);
     }
 }
