@@ -17,11 +17,8 @@ public class Main {
         //hi(введи что-нибудь));
         //every4(попробуй 400, 100, и еще что-нибудь);
     }
-
-    public static float math(float a, float b, float c ,float d){
-        System.out.println(a + ", " + b + ", " + c + ", " + d);
-        return a * (b + (c / d));
-    }
+	
+	Ой метод пропал :(
 
     public static boolean compare(double a, double b){
         System.out.println(a + ", " + b);
@@ -57,4 +54,5 @@ public class Main {
 		}
             System.out.println(is);
     }
+	Это типа изменения
 }
