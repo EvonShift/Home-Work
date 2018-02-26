@@ -113,7 +113,7 @@ public class HW652 {
         for (int anArray : array) {
             System.out.print(anArray + " ");
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
             int now = array[array.length-1];
             for (int u = array.length-1; u > 0; u--) array[u] = array[u-1];
             array[0] = now;
